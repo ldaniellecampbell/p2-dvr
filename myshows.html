@@ -1,0 +1,105 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+ <title>P2 DVR Remote</title>
+    <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="js/vendor/modernizr.js"></script>
+</head>
+
+<body>
+ <div class="off-canvas-wrap">
+  <div class="inner-wrap">
+    <nav class="tab-bar">
+      <section class="left-small">
+        <a class="left-off-canvas-toggle menu-icon" ><span></span></a>
+      </section>
+
+      <section class="middle tab-bar-section">
+        <h1 class="title"> </h1>
+      </section>
+
+      <section class="right-small">
+        <a class="right-off-canvas-toggle menu-icon" ><span></span></a>
+      </section>
+    </nav>
+
+    <aside class="left-off-canvas-menu">
+      <ul class="off-canvas-list">
+        <li><label>Library</label></li>
+        <li><a href="#">Lauren's Shows</a></li>
+        <li><a href="#">Explore</a></li>
+        <li><a href="#">Search</a></li>
+      </ul>
+    </aside>
+
+    <aside class="right-off-canvas-menu">
+      <ul class="off-canvas-list">
+        <li><label>Users</label></li>
+        <li><a href="#">Colin</a></li>
+        <li><a href="#">Ben</a></li>
+      </ul>
+    </aside>
+
+    <section class="main-section">
+      
+              <!-- =======================Orbit Start -->
+              <div class="orbit-container">
+          <ul data-orbit class="example-orbit orbit-slides-container">
+            <li>
+              <img src="img/bravestwarriors.png" alt="Watch Bravest Warriors" />
+              <div class="orbit-caption">
+                Bravest Warriors
+              </div>
+            </li>
+            <li class="active">
+              <img src="img/secondskin.jpg" alt="Watch Second Skin" />
+              <div class="orbit-caption">
+                Looktv's Second Skin
+              </div>
+            </li>
+            <li>
+              <img src="img/spacedandy.jpg" alt="Watch Space Dandy" />
+              <div class="orbit-caption">
+                Space Dandy
+              </div>
+            </li>
+          </ul>
+        
+          <!-- Navigation Arrows -->
+          <a href="#" class="orbit-prev">Prev <span></span></a>
+          <a href="#" class="orbit-next">Next <span></span></a>
+        
+          <!-- Slide Numbers -->
+          <div class="orbit-slide-number">
+            <span>1</span> of <span>3</span>
+          </div>
+        
+          <!-- Timer and Play/Pause Button -->
+          <div class="orbit-timer">
+            <span></span>
+            <div class="orbit-progress"></div>
+          </div>
+        </div>
+        
+        <!-- Bullets -->
+        <ol class="orbit-bullets">
+          <li data-orbit-slide-number="1"></li>
+          <li data-orbit-slide-number="2" class="active"></li>
+          <li data-orbit-slide-number="3"></li>
+        </ol><!-- =====================End Orbit-->
+        
+</section> <!-- ========END OF MAIN SECTION -->
+
+  <a class="exit-off-canvas"></a>
+  </div>
+</div> <!-- End of Off canvas -->
+
+   <script src="js/vendor/jquery.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+</body>
+</html>
